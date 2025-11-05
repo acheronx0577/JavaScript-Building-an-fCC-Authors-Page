@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>AUTHOR_TERMINAL</title>
+  </head>
+  <body>
+    <div class="terminal">
+      <header class="terminal-header">
+        <div class="window-controls">
+          <span class="control close"></span>
+          <span class="control minimize"></span>
+          <span class="control maximize"></span>
+        </div>
+        <div class="title-bar">
+          <span class="prompt">></span>
+          <span class="title">AUTHOR_TERMINAL</span>
+          <span class="cursor">_</span>
+        </div>
+      </header>
+
+      <main class="terminal-body">
+        <div class="app-header">
+          <h1 class="app-title">~/network/authors_database</h1>
+          <div class="status-bar">
+            <span class="status-item">ONLINE</span>
+            <span class="status-item">v2.0.0</span>
+            <span class="status-item">API_READY</span>
+          </div>
+        </div>
+
+        <div class="controls-section">
+          <input
+            type="text"
+            id="search"
+            class="search-box"
+            placeholder="FILTER_AUTHORS [type_to_search...]"
+          />
+          <button id="load-more-btn" class="terminal-btn">
+            LOAD_MORE_AUTHORS
+          </button>
+          <button id="refresh-btn" class="terminal-btn secondary">
+            REFRESH_DATA
+          </button>
+        </div>
+
+        <div class="stats-panel">
+          <div class="stats-header">
+            <span class="stats-title">DATABASE_STATS</span>
+          </div>
+          <div class="stats-content">
+            <div class="stat-item">
+              <div class="stat-value" id="total-authors">0</div>
+              <div class="stat-label">TOTAL_AUTHORS</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value" id="displayed-authors">0</div>
+              <div class="stat-label">DISPLAYED</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value" id="avg-bio-length">0</div>
+              <div class="stat-label">AVG_BIO_LENGTH</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-value" id="status">IDLE</div>
+              <div class="stat-label">STATUS</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="authors-container" class="authors-container">
+          <div id="author-grid" class="authors-grid">
+            <div class="loading">
+              <div class="loading-spinner"></div>
+              <div>LOADING_AUTHOR_DATA...</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="error-container" class="error-msg hide"></div>
+      </main>
+
+      <footer class="terminal-footer">
+        <div class="footer-stats">
+          <span class="stat">CONNECTION: <span id="connection-status">ESTABLISHED</span></span>
+          <span class="stat">API_ENDPOINT: freecodecamp.org</span>
+          <span class="stat">LAST_UPDATE: <span id="last-update">--:--:--</span></span>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
