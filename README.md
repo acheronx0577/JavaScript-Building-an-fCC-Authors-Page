@@ -1,4 +1,4 @@
-# 📊 Author Terminal
+# 📝 Author Terminal
 
 Welcome to **Author Terminal** — a sophisticated terminal-style author directory built with pure JavaScript! Experience the modern TUI (Terminal User Interface) design that brings the nostalgia of command-line interfaces to your browser, featuring real-time author data from freeCodeCamp.
 
@@ -22,7 +22,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 <img width="1274" height="1195" alt="Screenshot 2025-11-05 115908" src="https://github.com/user-attachments/assets/90b4ed8f-558f-486f-b80b-62250be59e1b" />
 
-Live Demo: https://acheronx0577.github.io/Author-Terminal
+Live Demo: https://acheronx0577.github.io/JavaScript-Building-an-fCC-Authors-Page
 
 ---
 
