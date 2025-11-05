@@ -20,7 +20,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 ## 📸 Application Preview
 
-<img width="1063" height="970" alt="Author Terminal Preview" src="https://github.com/user-attachments/assets/author-terminal-preview" />
+<img width="1274" height="1195" alt="Screenshot 2025-11-05 115908" src="https://github.com/user-attachments/assets/90b4ed8f-558f-486f-b80b-62250be59e1b" />
 
 Live Demo: https://acheronx0577.github.io/Author-Terminal
 
@@ -52,7 +52,7 @@ Live Demo: https://acheronx0577.github.io/Author-Terminal
 
 ### 1️⃣ Clone this repo
 ```
-git clone git@github.com:acheronx0577/JavaScript-Building-a-Dice-Game.git
+git clone git@github.com:acheronx0577/JavaScript-Building-an-fCC-Authors-Page.git
 ```
 
 ### 2️⃣ Run the file
