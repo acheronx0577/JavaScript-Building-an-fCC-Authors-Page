@@ -40,12 +40,6 @@ Live Demo: https://acheronx0577.github.io/JavaScript-Building-an-fCC-Authors-Pag
 - **`Esc`** - Clear search
 - **`Enter`** - Execute search
 
-### Interface Elements:
-- **Database Stats** - Live counters for total authors, displayed count, and average bio length
-- **Status Indicators** - Real-time connection and loading states
-- **Author Cards** - Profile images, biographies, and direct links
-- **Footer Stats** - Connection status and last update time
-
 ---
 
 ## 🧰 Installation & Usage
@@ -68,12 +62,6 @@ Just open `index.html` in your favorite browser 🌐 and start playing!
 3. **Render** author cards in responsive grid layout
 4. **Update** statistics and UI states in real-time
 
-### Architecture:
-- **Modular Functions** for data processing and UI updates
-- **Event-Driven Design** for user interactions
-- **Error Boundary** handling for network failures
-- **Responsive Grid** system for card layout
-
 ---
 
 ## 🤝 Contributing
@@ -82,14 +70,6 @@ Interested in improving this author terminal?
 - Fork the repository 🍴  
 - Add new features or enhance the UI ✍️  
 - Submit a Pull Request ✅  
-
-Potential enhancements:
-- **Advanced filtering** (by bio length, alphabetical sorting)
-- **Export functionality** for author data
-- **Dark/Light theme** toggle
-- **Bookmarking system** for favorite authors
-- **Social features** (sharing, ratings)
-- **Offline mode** with local caching
 
 ---
 
